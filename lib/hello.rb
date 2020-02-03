@@ -12,7 +12,7 @@ def hello_t
 end
 
 #call the method
-hello_t(["Tim", "Tom", "Jim"]) do |name| #parameter for array[i] from yield
+hello_t(["Tim", "Tom", "Jim"]) do |name|
    if name.start_with?("T")
       puts "Hi, #{name}"
    end
